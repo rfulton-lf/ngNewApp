@@ -5,7 +5,6 @@ import { HousingLocation } from './housinglocation';
   providedIn: 'root'
 })
 export class HousingService {
-  readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
   readonly url = 'https://localhost:3000/locations';
   constructor() { }
 
